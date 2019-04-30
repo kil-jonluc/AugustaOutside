@@ -1,0 +1,96 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<!--Jumbotron-->
+<div class="jumbotron-fluid pb-3">
+    <div class="title-banner home" style="height: 20rem;">
+        <div style="height: 50%; padding:5em">
+        <div class="row-1">
+            <div class="col text-md-center text-sm-left ">
+                <h1 class="display-4">Augusta Outside</h1>
+            </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+<!--Message-->
+<div class="container">
+    <div class="row">
+        <h1 class="display-1">
+            Augusta Outside
+        </h1>
+    </div>
+    <div class="row">
+        <h3 class="display-4" style="font-size: 2rem;">
+            Experience all Augusta has to offer outside.
+        </h3>
+    </div>
+    <div class="row">
+        <p>
+            Augusta's offer of outdoors actives might even surpirse the born and raised native. Though not know for its outdoors activies, it is none the less ripe with advernture.
+            The diverse enviroments of the Augusta region offer everything from a taste of the Appalachain Mountains due to Steven's Creek Heritage Preserve's unique soil composition to the wetlands and bald cypresses of Phinizy Swamp Nature Park.
+            
+        </p>
+    </div>
+</div>
+
+<!--cards-->
+<div class="container d-flex ">
+    <div class="row justify-content-around m-3 " >
+        <div class="col-lg-4 col-md-6">
+            <div class="card m-3" style="width: 18rem;">
+                <img src="~/assets/images/bikefats2.jpg" class="card-img-top" alt="biking">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Biking</h5>
+                    <p class="card-text">Augusta is known for its great mountain biking trails the most famous of them being the Forks Area Trail System.</p>
+
+                    @Html.ActionLink("Ride a Bike", "Biking", "Home")
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card m-3" style="width: 18rem;">
+                <img src="~/assets/images/discgolfwildwood.jpg" class="card-img-top" alt="disc golf">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Disc Golf</h5>
+                    <p class="card-text">Augusta is a hub for disc golf as the PDGA International Disc Golf Center is located at Wildwood Park</p>
+                    @Html.ActionLink("Play Disc Golf", "DiscGolf", "Home")
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card m-3" style="width: 18rem;">
+                <img src="~/assets/images/hikingStevens-Creek-Heritage-Preserve.jpg" class="card-img-top" alt="biking">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Hiking</h5>
+                    <p class="card-text">Hiking is a great colder weather activiy as Augusta has mild winters.</p><br />
+                    @Html.ActionLink("Hike", "Hiking", "Home")
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4  col-md-6">
+            <div class="card m-3" style="width: 18rem;">
+                <img src="~/assets/images/kayakCanal.jpg" class="card-img-top" alt="biking">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Paddling</h5>
+                    <p class="card-text">Of all Augusta's many outdoors activies watersports are the most popular.</p><br />
+                    @Html.ActionLink("Paddle", "Paddling", "Home")
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4  col-md-6">
+            <div class="card m-3" style="width: 18rem;">
+                <img src="~/assets/images/walkingcanal.jpg" class="card-img-top" alt="biking">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Walking</h5>
+                    <p class="card-text">Augusta has many places to walk with friends and family or get in that long distane run.</p><br />
+
+                    @Html.ActionLink("Walk and Run", "Walking", "Home")
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    

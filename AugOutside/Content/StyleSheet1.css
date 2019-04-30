@@ -1,0 +1,72 @@
+﻿.title-banner {
+    background-image: url("../assets/images/kayakCanal.jpg");
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.bike-banner {
+    background-image: url("../assets/images/bikefats.jpg");
+    background-position: right bottom;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.dg-banner {
+    background-image: url("../assets/images/discgolfwildwood.jpg");
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.hike-banner {
+    background-image: url("../assets/images/hikingStevens-Creek-Heritage-Preserve.jpg");
+    background-position: right bottom;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.walk-banner {
+    background-image: url("../assets/images/walkingcanal.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.paddle-banner {
+    background-image: url("../assets/images/kayakCanal.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+    .jumbotron-fluid h1 {
+    color: floralwhite;
+    font-weight: bold;
+    text-shadow: 3px 5px 3px darkslategray;
+    font-size: 6rem;
+}
+
+.card img {
+    height: 12rem;
+    display: block;
+    overflow: hidden;
+    width: auto;
+}
